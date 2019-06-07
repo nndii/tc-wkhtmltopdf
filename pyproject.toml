@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "tc-wkhtmltopdf"
+version = "0.1.0"
+description = ""
+authors = ["Andrey Maksimov <nndii@pm.me>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+aiohttp = "^3.5"
+loguru = "^0.2.5"
+hostport = "^1.1"
+docopt = "^0.6.2"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.5"
+pytest = "^4.6"
+mypy = "^0.701.0"
+flake8 = "^3.7"
+wemake-python-styleguide = "^0.8.1"
+jedi = "^0.13.3"
+service-factory = "^0.1.5"
+importmagic = "^0.1.7"
+epc = "^0.0.5"
+json-rpc = "^1.12"
+pytest-asyncio = "^0.10.0"
+pytest-aiohttp = "^0.3.0"
+asynctest = "^0.13.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

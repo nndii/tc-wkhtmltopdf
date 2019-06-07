@@ -1,0 +1,31 @@
+/.cache
+
+__pycache__
+*.egg-info
+*.egg
+/build
+/dist
+
+.python-version
+.coverage
+
+*.DS_Store
+*thumb
+*~
+poetry.lock
+
+# sublime
+/*.sublime-settings
+/*.sublime-project
+/*.sublime-workspace
+
+# vim
+*.swo
+*.swp
+
+# other IDEs
+/.codeintel
+/.ropeproject
+/.idea
+setup.cfg
+.mypy_cache
